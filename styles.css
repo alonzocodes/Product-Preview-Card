@@ -31,7 +31,19 @@
     color: hsl(158, 36%, 37%);
 }
 
+.regular {
+    font-size: 18px;;
+    color: hsl(228, 12%, 48%)
+    font-family: "Fraunces" san serif;
+}
+
+.materials-symbols-outlined {
+    font-weight: 900;
+}
+
 .cart {
     background-color: hsl(158, 36%, 37%);
     color: white;
+    font-size: 22px;
+    width: 375px;
 }
