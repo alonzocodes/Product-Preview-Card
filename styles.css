@@ -98,17 +98,27 @@ h4 { /*This is my product category type title*/
 
 #cart { /*This is my button*/
     background-color: hsl(158, 36%, 37%);
+    font-family: "Montserrat", san serif;
+    font-weight: 900;
     color: white;
     font-size: 16px;
     width: 330px;
     border-radius: 5px;
     border: none;
     padding: 10px;
-    justify-content: center;
+    
+    
 }
 
-.material-symbols-outlined { /*This is my cart icon*/
-    font-weight: 900;
-
+button {
+    text-align: center;
 }
 
+.fa-solid fa-cart-shopping {
+    color: #ffffff;
+       
+}
+
+i {
+    margin-right: 10px;
+}
