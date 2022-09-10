@@ -1,20 +1,27 @@
+/*@media screen  and (max-height: 680px) {*/
+   
+
+
 body { /*This is my peach colored background*/
     background-color: hsl(30, 38%, 92%);
     width: 375px;
+    margin: auto;
+    padding-top: 100px;
 }
 
 .background { /*This is my white background*/
     background-color: #ffffff;
     width: 375px;
-    height: auto;
     border-radius: 10px;
+    margin: auto;
+
 }
+
 
 .content {  /*This is my img, titles, and description*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
 }
 
 .perfume { /*This is my img only*/
@@ -23,7 +30,8 @@ body { /*This is my peach colored background*/
     align-items: center;
     justify-content: center;
     border-radius: 10px 10px 0 0;
-}
+} 
+
 
 h4 { /*This is my product category type title*/
     font-family: "Montserrat", san serif;
@@ -46,35 +54,61 @@ h4 { /*This is my product category type title*/
 }
 
 .description { /*This is my description of product*/
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Montserrat", san serif;
     font-weight: 500, 700;
     color: hsl(228, 12%, 48%);
     margin-top: 8px;
     margin-left: 20px;
     line-height: 30px;
+    letter-spacing: .1rem;
+    margin-bottom: 0px;
+    
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
     
 }
 
 .discount { /*This is my product discount price*/
     color: hsl(158, 36%, 37%);
-    margin-left: 20px;
-    margin-top: 5px;
+    font-family: "Fraunces", san serif;
+    
 }
 
 .regular { /*This is my product regular price*/
-    font-size: 18px;
+    font-size: 14px;
     color: hsl(228, 12%, 48%);
     font-family: "Fraunces", san serif;
+    margin: 20px;
+    padding-top: 10px;
 }
 
-.materials-symbols-outlined { /*This is my cart icon*/
-    font-weight: 900;
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 25px;
+    margin-top: 0px;
 }
 
 #cart { /*This is my button*/
     background-color: hsl(158, 36%, 37%);
     color: white;
-    font-size: 22px;
-    width: 375px;
+    font-size: 16px;
+    width: 330px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    justify-content: center;
 }
+
+.material-symbols-outlined { /*This is my cart icon*/
+    font-weight: 900;
+
+}
+
