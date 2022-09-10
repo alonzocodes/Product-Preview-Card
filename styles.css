@@ -1,22 +1,18 @@
-/*@media screen  and (max-height: 680px) {*/
-   
-
-
-body { /*This is my peach colored background*/
+@media only screen and (max-width: 600px) {
+   body { /*This is my peach colored background*/
     background-color: hsl(30, 38%, 92%);
     width: 375px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .background { /*This is my white background*/
     background-color: #ffffff;
-    width: 375px;
+    width: 345px;
     border-radius: 10px;
     margin: auto;
-
+    
 }
-
 
 .content {  /*This is my img, titles, and description*/
     display: flex;
@@ -25,13 +21,12 @@ body { /*This is my peach colored background*/
 }
 
 .perfume { /*This is my img only*/
-    width: 375px;
+    width: 345px;
     height: auto;
     align-items: center;
     justify-content: center;
     border-radius: 10px 10px 0 0;
 } 
-
 
 h4 { /*This is my product category type title*/
     font-family: "Montserrat", san serif;
@@ -84,7 +79,7 @@ h4 { /*This is my product category type title*/
     color: hsl(228, 12%, 48%);
     font-family: "Fraunces", san serif;
     margin: 20px;
-    padding-top: 10px;
+    padding-top: 13px;
 }
 
 .cart {
@@ -96,6 +91,7 @@ h4 { /*This is my product category type title*/
     margin-top: 0px;
 }
 
+
 #cart { /*This is my button*/
     background-color: hsl(158, 36%, 37%);
     font-family: "Montserrat", san serif;
@@ -106,19 +102,64 @@ h4 { /*This is my product category type title*/
     border-radius: 5px;
     border: none;
     padding: 10px;
-    
-    
+       
 }
 
 button {
     text-align: center;
 }
 
+#cart:hover {
+    background-color: hsl(30, 38%, 92%);
+    color: hsl(158, 36%, 37%);
+    cursor: pointer;
+}
+
 .fa-solid fa-cart-shopping {
-    color: #ffffff;
-       
+    color: #ffffff;      
 }
 
 i {
     margin-right: 10px;
+}
+
+.large-perfume {
+    display: none;
+}
+}
+
+@media only screen and (min-width: 992px) {
+body {
+        background-color: hsl(30, 38%, 92%);
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+}
+
+.background { /*This is my white background*/
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 80%;
+    
+    
+}
+
+.content {  /*This is my img, titles, and description*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.large-perfume { /*This is my img only*/
+    width: 375px;
+    height: auto;
+    border-radius: 10px 0px 0 10px;
+}
+
+.perfume { /*Large Photo*/
+        display: none;
+}
 }
