@@ -1,17 +1,17 @@
 @media only screen and (max-width: 600px) {
    body { /*This is my peach colored background*/
     background-color: hsl(30, 38%, 92%);
-    width: 375px;
+    width: 100%;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .background { /*This is my white background*/
     background-color: #ffffff;
-    width: 345px;
+    width: 90%;
     border-radius: 10px;
-    margin: auto;
-    
+    margin: auto; 
 }
 
 .content {  /*This is my img, titles, and description*/
@@ -21,10 +21,8 @@
 }
 
 .perfume { /*This is my img only*/
-    width: 345px;
+    width: 100%;
     height: auto;
-    align-items: center;
-    justify-content: center;
     border-radius: 10px 10px 0 0;
 } 
 
@@ -144,9 +142,7 @@ body {
     height: 450px;
     margin-left: 265px;
     margin-top: 90px;
-   flex-direction: column;
-    
-       
+    flex-direction: column;     
 }
 
 .content {  /*This is my img, titles, and description*/
