@@ -9,7 +9,7 @@
 
 .background { /*This is my white background*/
     background-color: #ffffff;
-    width: 90%;
+    width: 65%;
     border-radius: 10px;
     margin: auto; 
 }
@@ -22,62 +22,63 @@
 
 .perfume { /*This is my img only*/
     width: 100%;
-    height: auto;
     border-radius: 10px 10px 0 0;
 } 
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 h4 { /*This is my product category type title*/
     font-family: "Montserrat", san serif;
     color: hsl(228, 12%, 48%);
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    letter-spacing: .2rem;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    letter-spacing: .3rem;
     font-size: 12px;
-
 }
 
-.title { /*This is my product brand title*/
+h1 { /*This is my product brand title*/
     font-size: 30px;
     font-family: "Fraunces", san serif;
     justify-content: left;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    line-height: 2rem;
 }
 
-.description { /*This is my description of product*/
-    font-size: 16px;
+p { /*This is my description of product*/
+    font-size: 13px;
     font-family: "Montserrat", san serif;
-    font-weight: 500, 700;
     color: hsl(228, 12%, 48%);
-    margin-top: 8px;
-    margin-left: 20px;
-    line-height: 30px;
-    letter-spacing: .1rem;
-    margin-bottom: 0px;
-    
+    margin-top: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 20px; 
 }
 
 .pricing {
     display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    
+    flex-direction: row; 
 }
 
 .discount { /*This is my product discount price*/
     color: hsl(158, 36%, 37%);
-    font-family: "Fraunces", san serif;
-    
+    font-family: "Fraunces", san serif;  
 }
 
 .regular { /*This is my product regular price*/
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     font-family: "Fraunces", san serif;
-    margin: 20px;
-    padding-top: 13px;
+    margin-left: 20px;
+    margin-top: 8px;
+    padding-bottom: 4px;
 }
 
 .cart {
@@ -95,12 +96,11 @@ h4 { /*This is my product category type title*/
     font-family: "Montserrat", san serif;
     font-weight: 900;
     color: white;
-    font-size: 16px;
-    width: 330px;
+    font-size: 14px;
+    width: 270px;
     border-radius: 5px;
     border: none;
-    padding: 10px;
-       
+    padding: 10px; 
 }
 
 button {
@@ -108,8 +108,8 @@ button {
 }
 
 #cart:hover {
-    background-color: hsl(30, 38%, 92%);
-    color: hsl(158, 36%, 37%);
+    background-color: hsl(141, 49%, 19%);
+    color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
 
