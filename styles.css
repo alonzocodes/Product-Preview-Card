@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
    body { /*This is my peach colored background*/
     background-color: hsl(30, 38%, 92%);
     width: 100%;
@@ -9,7 +9,8 @@
 
 .background { /*This is my white background*/
     background-color: #ffffff;
-    width: 65%;
+    width: 85%;
+    height: 780px;
     border-radius: 10px;
     margin: auto; 
 }
@@ -22,6 +23,7 @@
 
 .perfume { /*This is my img only*/
     width: 100%;
+    height: 300px;
     border-radius: 10px 10px 0 0;
 } 
 
@@ -34,32 +36,33 @@
 h4 { /*This is my product category type title*/
     font-family: "Montserrat", san serif;
     color: hsl(228, 12%, 48%);
-    margin-left: 25px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 12px;
     letter-spacing: .3rem;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 h1 { /*This is my product brand title*/
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Fraunces", san serif;
     justify-content: left;
-    margin-left: 25px;
+    margin-left: 30px;
     margin-top: 0;
-    margin-bottom: 10px;
-    line-height: 2rem;
+    margin-bottom: 15px;
+    line-height: 3rem;
 }
 
 p { /*This is my description of product*/
-    font-size: 13px;
+    font-size: 20px;
+    line-height: 1.8rem;
     font-family: "Montserrat", san serif;
     color: hsl(228, 12%, 48%);
     margin-top: 0;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 30px;
+    margin-right: 10px;
     flex-wrap: wrap;
-    margin-bottom: 20px; 
+    margin-bottom: 30px; 
 }
 
 .pricing {
@@ -70,14 +73,15 @@ p { /*This is my description of product*/
 .discount { /*This is my product discount price*/
     color: hsl(158, 36%, 37%);
     font-family: "Fraunces", san serif;  
+    font-size: 40px;
 }
 
 .regular { /*This is my product regular price*/
-    font-size: 14px;
+    font-size: 20px;
     color: hsl(228, 12%, 48%);
     font-family: "Fraunces", san serif;
     margin-left: 20px;
-    margin-top: 8px;
+    margin-top: 12px;
     padding-bottom: 4px;
 }
 
@@ -96,11 +100,12 @@ p { /*This is my description of product*/
     font-family: "Montserrat", san serif;
     font-weight: 900;
     color: white;
-    font-size: 14px;
-    width: 270px;
+    font-size: 18px;;
     border-radius: 5px;
     border: none;
-    padding: 10px; 
+    padding: 20px; 
+    width: 350px;
+    max-width: 100%;
 }
 
 button {
@@ -126,7 +131,7 @@ i {
 }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 491px) {
 body {
     background-color: hsl(30, 38%, 92%);
     width: auto;
