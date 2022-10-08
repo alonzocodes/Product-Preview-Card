@@ -8,6 +8,8 @@
 }
 
 .background { /*This is my white background*/
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
     width: 85%;
     height: 780px;
@@ -17,11 +19,11 @@
 
 .content {  /*This is my img, titles, and description*/
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
 }
 
-.perfume { /*This is my img only*/
+.mobile-img { /*This is my img only*/
     width: 100%;
     height: 300px;
     border-radius: 10px 10px 0 0;
@@ -33,7 +35,7 @@
     flex-wrap: wrap;
 }
 
-h4 { /*This is my product category type title*/
+.perfume { /*This is my product category type title*/
     font-family: "Montserrat", san serif;
     color: hsl(228, 12%, 48%);
     margin-left: 30px;
@@ -43,7 +45,7 @@ h4 { /*This is my product category type title*/
     font-size: 18px;
 }
 
-h1 { /*This is my product brand title*/
+.name-title { /*This is my product brand title*/
     font-size: 40px;
     font-family: "Fraunces", san serif;
     justify-content: left;
@@ -53,7 +55,7 @@ h1 { /*This is my product brand title*/
     line-height: 3rem;
 }
 
-p { /*This is my description of product*/
+.description { /*This is my description of product*/
     font-size: 20px;
     line-height: 1.8rem;
     font-family: "Montserrat", san serif;
@@ -83,6 +85,7 @@ p { /*This is my description of product*/
     margin-left: 20px;
     margin-top: 12px;
     padding-bottom: 4px;
+    display: inline;
 }
 
 .cart {
@@ -126,7 +129,7 @@ i {
     margin-right: 10px;
 }
 
-.large-perfume {
+.large-img {
     display: none;
 }
 }
@@ -140,59 +143,56 @@ i {
     background-color: hsl(30, 38%, 92%);
     width: 100%;
     margin: auto;
-
 }
 
 .background { 
     background-color: #ffffff;
     border-radius: 10px;
     width: 60%;
-    height: 500px;
     max-height: 100%;
-    margin-left: 240px;
-    margin-top: 70px;
-    display: block;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
    
-       
 }
 
 .content {  /*This is my img, titles, and description*/
    display: flex;
-   flex-direction: row;
-   
 }
 
-.large-perfume { /*This is my large img only*/
-    width: 100%;
+.large-img { /*This is my large img only*/
+    width: 70%;
     height: 500px;
     border-radius: 10px 0px 0 10px;
 }
 
-.perfume { /*Large Photo*/
+.mobile-img { /*Large Photo*/
     display: none;
 }
 
 .copy {
     display: flex;
     flex-direction: column;
+
 }
 
-h4 { /*This is my product category type title*/
+.perfume { /*This is my product category type title*/
     font-family: "Montserrat", san serif;
     color: hsl(228, 12%, 48%);
     letter-spacing: .2rem;
     font-size: 12px;
-    display: flex;
+    margin-bottom: 0;
 }
 
-h1 { /*This is my product brand title*/
+.name-title { /*This is my product brand title*/
     font-size: 30px;
     font-family: "Fraunces", san serif;
     justify-content: left;
-  
+    margin-bottom: 0;
 }
 
-p { /*This is my description of product*/
+.description { /*This is my description of product*/
     font-size: 16px;
     font-family: "Montserrat", san serif;
     font-weight: 500, 700;
@@ -200,21 +200,12 @@ p { /*This is my description of product*/
    
     line-height: 30px;
     letter-spacing: .1rem;
-  
-    
 }
 
-.pricing {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    
-}
 
 .discount { /*This is my product discount price*/
     color: hsl(158, 36%, 37%);
     font-family: "Fraunces", san serif;
-    
 }
 
 .regular { /*This is my product regular price*/
@@ -244,8 +235,7 @@ p { /*This is my description of product*/
     width: 330px;
     border-radius: 5px;
     border: none;
-    padding: 10px;
-       
+    padding: 10px; 
 }
 
 button {
@@ -265,7 +255,7 @@ button {
 i {
     margin-right: 10px;
 }
-}
+
 
 @media screen (min-width: 1020px) {
     body {
