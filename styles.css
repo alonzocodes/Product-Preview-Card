@@ -59,7 +59,7 @@
     margin-bottom: .9rem; 
 }
 
-.pricing {
+.pricing-box {
     display: flex;
     flex-direction: row; 
 }
