@@ -84,7 +84,6 @@
 #cart { /*This is my button*/
     background-color: hsl(158, 36%, 37%);
     font-family: "Montserrat", san serif;
-
     color: white;
     font-size: 1.1em;
     border-radius: .4rem;
@@ -109,7 +108,7 @@ button {
 }
 
 i {
-    margin-right: 10px;
+    margin-right: .8rem;
 }
 
 .large-img {
