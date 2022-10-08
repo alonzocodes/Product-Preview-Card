@@ -57,7 +57,7 @@
     font-family: "Montserrat", san serif;
     color: hsl(228, 12%, 48%);
     margin-top: 0;
-    margin-bottom: .9rem; 
+    margin-bottom: .5rem; 
 }
 
 .pricing-box {
@@ -70,7 +70,7 @@
 .discount { /*This is my product discount price*/
     color: hsl(158, 36%, 37%);
     font-family: "Fraunces", san serif;  
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 .regular { /*This is my product regular price*/
