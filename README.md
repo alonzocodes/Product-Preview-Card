@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./product-preview-card-screenshot.png)
+![](images/product-preview-card-screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://your-solution-url.com)
 - Live Site URL: [Live site URL](https://alonzocodes.github.io/Product-Preview-Card/)
 
 ## My process
