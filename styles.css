@@ -34,7 +34,7 @@
     margin-left: 2rem;
 }
 
-.perfume { /*This is my product category type title*/
+.perfume-title { /*This is my product category type title*/
     font-family: "Montserrat", san serif;
     color: hsl(228, 12%, 48%);
     letter-spacing: .3rem;
