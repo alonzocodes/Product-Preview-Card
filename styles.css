@@ -148,7 +148,7 @@ i {
 .background { 
     background-color: #ffffff;
     border-radius: 10px;
-    width: 60%;
+    width: 30%;
     max-height: 100%;
     margin: auto;
     margin-top: 10%;
@@ -162,8 +162,8 @@ i {
 }
 
 .large-img { /*This is my large img only*/
-    width: 70%;
-    height: 500px;
+    width: 50%;
+    height: 100%;
     border-radius: 10px 0px 0 10px;
 }
 
@@ -174,6 +174,9 @@ i {
 .copy {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    margin-left: 32px;
+    width: 40%;
 
 }
 
@@ -190,30 +193,35 @@ i {
     font-family: "Fraunces", san serif;
     justify-content: left;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .description { /*This is my description of product*/
-    font-size: 16px;
+    font-size: 1em;
     font-family: "Montserrat", san serif;
     font-weight: 500, 700;
     color: hsl(228, 12%, 48%);
-   
-    line-height: 30px;
+    margin-top: 0;
     letter-spacing: .1rem;
 }
 
+.pricing-box {
+    
+}
 
 .discount { /*This is my product discount price*/
     color: hsl(158, 36%, 37%);
     font-family: "Fraunces", san serif;
+    font-size: 2em;
+    display: inline;
 }
 
 .regular { /*This is my product regular price*/
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     font-family: "Fraunces", san serif;
-    margin: 20px;
-    padding-top: 13px;
+    display: inline;
+    margin-left: 1em;
 }
 
 .cart {
