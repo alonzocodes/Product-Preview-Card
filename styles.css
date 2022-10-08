@@ -62,7 +62,8 @@
 
 .pricing-box {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .discount { /*This is my product discount price*/
