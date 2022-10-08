@@ -74,13 +74,11 @@
 }
 
 .regular { /*This is my product regular price*/
-    font-size: 20px;
+    font-size: 1.2em;
     color: hsl(228, 12%, 48%);
     font-family: "Fraunces", san serif;
-    margin-left: 20px;
-    margin-top: 12px;
-    padding-bottom: 4px;
-    display: inline;
+    padding-bottom: .4rem;
+    margin-left: .9rem;
 }
 
 .cart {
