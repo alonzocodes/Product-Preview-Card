@@ -81,16 +81,6 @@
     margin-left: .9rem;
 }
 
-.cart {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 25px;
-    margin-top: 0px;
-}
-
-
 #cart { /*This is my button*/
     background-color: hsl(158, 36%, 37%);
     font-family: "Montserrat", san serif;
