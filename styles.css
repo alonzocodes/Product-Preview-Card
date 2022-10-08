@@ -84,12 +84,12 @@
 #cart { /*This is my button*/
     background-color: hsl(158, 36%, 37%);
     font-family: "Montserrat", san serif;
-    font-weight: 900;
+
     color: white;
-    font-size: 18px;;
-    border-radius: 5px;
+    font-size: 1.1em;
+    border-radius: .4rem;
     border: none;
-    padding: 20px; 
+    padding: 1.2rem; 
     width: 70%;
     max-width: 100%;
 }
