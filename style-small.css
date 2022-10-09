@@ -1,0 +1,124 @@
+@media (max-width: 650px) {
+    body { /*This is my peach colored background*/
+     background-color: hsl(30, 38%, 92%);
+     width: 100%;
+     margin: auto;
+     padding-top: 5%;
+     padding-bottom: 5%;
+ }
+ 
+ .background { /*This is my white background*/
+     display: flex;
+     flex-direction: column;
+     background-color: #ffffff;
+     max-width: 85vw;
+     max-height: fit-content;
+     border-radius: .8rem;
+     margin: auto; 
+ }
+ 
+ .content {  /*This is my img, titles, and description*/
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .mobile-img { /*This is my img only*/
+     max-width: 100%;
+     max-height: 100%;
+     border-radius: .8rem .8rem 0 0;
+ } 
+ 
+ .copy {
+     display: flex;
+     flex-direction: column;
+     margin-left: 2rem;
+     max-width: 85%;
+ }
+ 
+ .perfume-title { /*This is my product category type title*/
+     font-family: "Montserrat", san serif;
+     color: hsl(228, 12%, 48%);
+     letter-spacing: .3rem;
+     font-size: 1.2em;
+     margin-bottom: 3px;
+ }
+ 
+ .name-title { /*This is my product brand title*/
+     font-size: 2.5em;
+     font-family: "Fraunces", san serif;
+     margin-top: 0;
+     margin-bottom: 0px;
+     line-height: 3rem;
+ }
+ 
+ .description { /*This is my description of product*/
+     font-size: 1em;
+     line-height: 1.8rem;
+     font-family: "Montserrat", san serif;
+     color: hsl(228, 12%, 48%);
+     margin-top: 0;
+     margin-bottom: 0rem; 
+ }
+ 
+ .pricing-box {
+     display: flex;
+     flex-direction: row;
+     align-items: flex-end;
+     margin-top: 0;
+ }
+ 
+ .discount { /*This is my product discount price*/
+     color: hsl(158, 36%, 37%);
+     font-family: "Fraunces", san serif;  
+     font-size: 2.5em;
+ }
+ 
+ .regular { /*This is my product regular price*/
+     font-size: 1.2em;
+     color: hsl(228, 12%, 48%);
+     font-family: "Fraunces", san serif;
+     padding-bottom: .4rem;
+     margin-left: .9rem;
+ }
+ 
+ .button-box {
+     display: block;
+     margin-bottom: 1rem;
+     max-width: 100%;
+ }
+ 
+ #cart { /*This is my button*/
+     background-color: hsl(158, 36%, 37%);
+     font-family: "Montserrat", san serif;
+     color: white;
+     font-size: 1.1em;
+     border-radius: .4rem;
+     border: none;
+     padding: 1.2rem; 
+     width: 100%;
+    
+ }
+ 
+ button {
+     text-align: center;
+ }
+ 
+ #cart:hover {
+     background-color: hsl(141, 49%, 19%);
+     color: hsl(0, 0%, 100%);
+     cursor: pointer;
+ }
+ 
+ .fa-solid fa-cart-shopping {
+     color: #ffffff;      
+ }
+ 
+ i {
+     margin-right: .8rem;
+ }
+ 
+ .large-img {
+     display: none;
+ }
+ }
+ 
