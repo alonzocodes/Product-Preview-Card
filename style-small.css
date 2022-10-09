@@ -1,4 +1,4 @@
-@media (max-width: 650px) {
+@media (max-width: 850px) {
     body { /*This is my peach colored background*/
      background-color: hsl(30, 38%, 92%);
      width: 100%;
@@ -84,6 +84,8 @@
  .button-box {
      display: block;
      margin-bottom: 1rem;
+     margin-left: 2rem;
+     margin-right: 2rem;
      max-width: 100%;
  }
  
@@ -96,7 +98,6 @@
      border: none;
      padding: 1.2rem; 
      width: 100%;
-    
  }
  
  button {
