@@ -32,7 +32,8 @@
      display: flex;
      flex-direction: column;
      margin-left: 2rem;
-     max-width: 85%;
+     margin-right: 2rem;
+     max-width: 100%;
  }
  
  .perfume-title { /*This is my product category type title*/
@@ -40,24 +41,24 @@
      color: hsl(228, 12%, 48%);
      letter-spacing: .3rem;
      font-size: 1.2em;
-     margin-bottom: 3px;
+     margin-bottom: 5px;
  }
  
  .name-title { /*This is my product brand title*/
      font-size: 2.5em;
      font-family: "Fraunces", san serif;
      margin-top: 0;
-     margin-bottom: 0px;
+     margin-bottom: 5px;
      line-height: 3rem;
  }
  
- .description { /*This is my description of product*/
+ .description { 
      font-size: 1em;
      line-height: 1.8rem;
      font-family: "Montserrat", san serif;
      color: hsl(228, 12%, 48%);
      margin-top: 0;
-     margin-bottom: 0rem; 
+     margin-bottom: 5px; 
  }
  
  .pricing-box {
@@ -70,22 +71,20 @@
  .discount { /*This is my product discount price*/
      color: hsl(158, 36%, 37%);
      font-family: "Fraunces", san serif;  
-     font-size: 2.5em;
+     font-size: 2em;
  }
  
  .regular { /*This is my product regular price*/
-     font-size: 1.2em;
+     font-size: 1em;
      color: hsl(228, 12%, 48%);
      font-family: "Fraunces", san serif;
-     padding-bottom: .4rem;
+     padding-bottom: 3px;
      margin-left: .9rem;
  }
  
  .button-box {
      display: block;
-     margin-bottom: 1rem;
-     margin-left: 2rem;
-     margin-right: 2rem;
+     margin-bottom: 2rem;
      max-width: 100%;
  }
  
