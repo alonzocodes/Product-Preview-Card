@@ -9,11 +9,11 @@
 .background { 
     background-color: #ffffff;
     border-radius: .8rem;
-    width: 50vw;
-    height: 80vh;
+    width: 700px;
+    height: 500px;
     display: flex;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 140px;
 }
 .content {  /*This is my img, titles, and description*/
    display: flex;
@@ -44,15 +44,16 @@
     font-family: "Montserrat", san serif;
     color: hsl(228, 12%, 48%);
     letter-spacing: .2rem;
-    font-size: 1em;
+    font-size: 1.1em;
+    margin-bottom: 5px;
     
 }
 
 .name-title { /*This is my product brand title*/
-    font-size: 2.1em;
+    font-size: 2.2em;
     font-family: "Fraunces", san serif;
-    margin-bottom: 10%;
-    margin-top: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
     
 }
 
@@ -60,35 +61,39 @@
     font-size: 1em;
     font-family: "Montserrat", san serif;
     color: hsl(228, 12%, 48%);
-    margin-top: 0;
-    line-height: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 1em;
+    line-height: 1.8rem;
     
 }
 
 .pricing-box {
     display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .discount { /*This is my product discount price*/
     color: hsl(158, 36%, 37%);
     font-family: "Fraunces", san serif;
-    font-size: 2em;
+    font-size: 2.3em;
     display: inline;
 }
 
 .regular { /*This is my product regular price*/
-    font-size: 14px;
+    font-size: 1em;
     color: hsl(228, 12%, 48%);
     font-family: "Fraunces", san serif;
     display: inline;
     margin-left: 1em;
+    padding-top: 9px;
 }
 
 .button-box {
     display: block;
+    margin: auto;
     margin-bottom: 1rem;
     max-width: 100%;
-    
 }
 
 
@@ -96,12 +101,11 @@
     background-color: hsl(158, 36%, 37%);
     font-family: "Montserrat", san serif;
     color: white;
-    font-size: 1em;
-    max-width: 150%;
+    font-size: 1.1em;
+    width: 100%;
     border-radius: .7rem;
     border: none;
-    padding: 1rem; 
-    margin-top: 2rem;
+    padding: 1.2rem 5rem 1.2rem 5rem; 
 }
 
 button {
@@ -109,8 +113,8 @@ button {
 }
 
 #cart:hover {
-    background-color: hsl(30, 38%, 92%);
-    color: hsl(158, 36%, 37%);
+    background-color: hsl(141, 49%, 19%);
+    color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
 
@@ -119,7 +123,7 @@ button {
 }
 
 i {
-    margin-right: 10px;
+    margin-right: .8rem;
 }
 
 }
