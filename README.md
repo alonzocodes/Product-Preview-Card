@@ -30,9 +30,6 @@ Users should be able to:
 ### Screenshot
 
 ![](images/product-preview-card-screenshot.png)
-![](images/large-screenshot.png)
-![](images/mobile-screenshot2.png)
-![](images/mobile-screenshot.png)
 
 
 ### Links
